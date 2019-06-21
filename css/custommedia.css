@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:969px) and (max-width:1024px){
+	
+}
+
+@media screen and (max-width:1023px) {
+	.bannercontent h1{font-size:22px;}
+	.bannercontent h3{font-size:16px;}
+	a.btnbnr{min-width:325px; font-size:16px;}
+	.mdlcontainer{padding:70px 0 50px;}
+	.homefootbanner .bannercontent{max-width:450px;}
+	.homefootbanner .bannercontent h1{font-size:16px;}
+}
+
+
+@media screen and (max-width: 767px) {
+ 	.bannerarea{position:inherit; transform:inherit; margin-right:0; left:0; top:0;}
+	.bannercontent{max-width:inherit; padding:15px; text-align:center; background-color:rgba(255, 255, 255, 0.8); margin-top:-50px; position:relative; z-index:1; border-bottom:1px solid #eee;}
+	.mdlcontainer{padding:40px 0px;}
+	.homefootbanner .bannercontent{max-width:inherit; margin-top:0;b ackground-color:#d4dbe3;}
+	.homefootbanner .bannerarea{position:inherit;}
+	a.btnbnr{min-width:inherit;}
+}
+
+
+@media screen and (max-width:479px){
+body{overflow-x:hidden;}
+.mdlbg{background:none; min-height:inherit;}
+.newitems{display:inline-block; float:left;}
+.newitems .imgcontent{text-align:center;}
+.newitems .gridcontent{text-align:center;}
+.newitems:nth-child(2n) .gridcontent{text-align:center;}
+.footmdl{padding:30px 15px; text-align:center;}
+.footmdl p{padding-top:10px; padding-left:0; border-top:2px solid #3f87f5; border-left:0;}
+.footright{text-align:center;}
+}
